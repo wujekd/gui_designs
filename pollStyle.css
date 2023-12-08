@@ -1,5 +1,5 @@
 .animation {
-    background-color: brown;
+    background-color: rgba(11, 46, 42, 0.396);
     width: 350px;
     height: 430px;
 }
@@ -15,14 +15,14 @@ body {
 
 header {
     height: 100px;
-    background-color: gray;
+    background-color: rgba(11, 46, 42, 0.709);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 nav {
-    padding-left: 30px;
+    padding-left: 3px;
 }
 
 ul {
@@ -58,9 +58,21 @@ main {
 .contL{
     width: 30%;
 }
+.contR{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    background-color: ;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
 .animation{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 15px;
 }
 main h1{
     font-size: 37px;
